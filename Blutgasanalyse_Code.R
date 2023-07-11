@@ -89,6 +89,8 @@ BGA(pH = 7.48, Bikarb = 27, Stand_Bikarb = 28, Base_Ex = 3.1, pC02 = 50)
 # 40 mmHg einzuhalten sind." 
 # (R. Zander, Die korrekte Bestimmung des Base Excess (BE, mmol/l) im Blut)
 
+# Problem with this Version: the reference values from doc-check don't seem to fit anymore. 
+# Unclear how BE is meassured / calculated properly. 
 
 BGA = function(pH,pC02){ # Start of function BGA.
   
